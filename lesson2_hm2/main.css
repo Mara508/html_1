@@ -1,0 +1,28 @@
+h1{
+    background: #8a2928;
+    color: #f9ebd7;
+}
+.Text30{
+    background: #c0c0c0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.Text20{
+    background: #6496ec;
+    box-sizing: border-box;
+    height: 100px;
+    padding-top: 40px;
+}
+.square{
+    height: 200px;
+    width: 200px;
+}
+.colorGreen{
+    background: #6cba68;
+}
+.colorSilverBlue{
+    background: #8987ac;
+}
+.squareRad{
+    border-radius: 20px;
+}
