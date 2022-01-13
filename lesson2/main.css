@@ -1,0 +1,33 @@
+body {
+    background: silver;
+}
+.h_w_150_orange{
+    height: 150px;
+    width: 150px;
+    background: orange;
+    margin: 100px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-left: 65px;
+    border: 2px solid #5b5b5b;
+}
+#a{
+    box-shadow: #5b5b5b 20px 20px;
+}
+#b{
+    box-shadow: #5b5b5b 20px 20px 5px;
+}
+#c{
+    box-shadow: #5b5b5b 20px 20px 5px 5px;
+}
+#d{
+    box-shadow: #989898 20px 20px 5px 5px;
+}
+#e{
+    box-shadow: #5b5b5b 20px 20px 5px;
+    border-radius: 5px;
+}
+#f{
+    box-shadow: #989898 20px 20px 5px;
+    border-radius: 5px;
+}
