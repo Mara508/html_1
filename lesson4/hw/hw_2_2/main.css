@@ -1,0 +1,41 @@
+.h800{
+    height: 800px;
+}
+.w500{
+    width: 500px;
+}
+.flex_d_column{
+    display: flex;
+    flex-direction: column;
+}
+.flex_d_row{
+    display: flex;
+    flex-direction: row;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row_gap_10{
+    row-gap: 10px;
+}
+.column_gap_10{
+    column-gap: 10px;
+}
+.flex_grow_1{
+    flex-grow: 1;
+}
+.flex_grow_2{
+    flex-grow: 2;
+}
+.bg_blue{
+    background: #246abb;
+}
+.bg_dark_blue{
+    background: #18467b;
+}
+.txt_color_white > h2, h4{
+    color: white;
+}
+
