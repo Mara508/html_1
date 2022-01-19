@@ -1,0 +1,47 @@
+body{
+    font-family: Arial,sans-serif;
+}
+.flex_d_column{
+    display: flex;
+    flex-direction: column;
+}
+.flex_d_row{
+    display: flex;
+    flex-direction: row;
+}
+.bg_blue{
+    background: #246abb;
+}
+.bg_dark_blue{
+    background: #18467b;
+}
+.h350{
+    height: 350px;
+}
+.h175{
+    height: 175px;
+}
+.w425{
+    width: 425px;
+}
+.w_50{
+    width: 50%;
+}
+.w_33{
+    width: 33%;
+}
+.row_gap_12{
+    row-gap: 12px;
+}
+.column_gap_12{
+    column-gap: 12px;
+}
+.txt_white h2, h3{
+    color: white;
+    text-align: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
