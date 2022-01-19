@@ -1,0 +1,96 @@
+.flex_d_column{
+    display: flex;
+    flex-direction: column;
+}
+.flex_d_row{
+    display: flex;
+    flex-direction: row;
+}
+.w_100{
+    width: 100%;
+}
+.w_60{
+    width: 60%;
+}
+.w_70{
+    width: 70%;
+}
+.w_40{
+    width: 40%;
+}
+.w_30{
+    width: 30%;
+}
+.h150{
+    height: 150px;
+}
+.h250{
+    height: 250px;
+}
+.h300{
+    height: 300px;
+}
+.h450{
+    height: 450px;
+}
+.h600{
+    height: 600px;
+}
+.h750{
+    height: 750px;
+}
+.bg_blue{
+    background: #55d5eb;
+}
+.bg_purple{
+    background: #d7c9e3;
+}
+.bg_lightgorange{
+    background: #f5c634;
+}
+.bg_lightgreen{
+    background: #a0c364;
+}
+.bg_silver{
+    background: #8a8a8a;
+}
+.bg_green{
+    background: #2db674;
+}
+.bg_pink{
+    background: #f3ccde;
+}
+.bg_orange{
+    background: #fea602;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center_top{
+    display: flex;
+    justify-content: center;
+}
+.center_top_for_column{
+    display: flex;
+    align-items: center;
+}
+.row_gap_10{
+    row-gap: 10px;
+}
+.column_gap_7{
+    column-gap: 7px;
+}
+.txt_white h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.txt_white p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
