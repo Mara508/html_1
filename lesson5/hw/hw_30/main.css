@@ -63,9 +63,6 @@ h2.txt_tomato{
     color: tomato;
 }
 @media screen and (max-width: 768px){
-    .bg_silver{
-        background: #7e9f98;
-    }
     .logo_and_header{
         column-gap: 2px;
     }
