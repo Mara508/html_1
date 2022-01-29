@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+a{
+    text-decoration: none;
+}
 .header {
     display: flex;
     flex-direction: column;
@@ -42,7 +44,6 @@
     font-size: 16px;
     line-height: 24px;
     color: #0B2330;
-    text-decoration: none;
 }
 
 .nav_menu__item > img {
