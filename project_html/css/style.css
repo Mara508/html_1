@@ -674,6 +674,9 @@ a{
     line-height: 24px;
     width: 162px;
 }
+.footer__block_blks_items a{
+    color: #94A0A4;
+}
 .txt_yellow_special_style{
     color: #F9C600;
     margin-bottom: 13px;
