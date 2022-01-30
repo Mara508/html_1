@@ -45,7 +45,9 @@ a{
     line-height: 24px;
     color: #0B2330;
 }
-
+.nav_menu__item > a:hover{
+    color: #FE9F28;
+}
 .nav_menu__item > img {
     margin-left: 8px;
 }
@@ -58,6 +60,11 @@ a{
     border-radius: 4px;
     color: #FFFFFF;
     padding: 0 29px;
+    cursor: pointer;
+}
+.nav_menu__item_btn:hover{
+    -webkit-box-shadow: -10px 0 13px -7px #5b5b5b, 10px 0 13px -7px #5b5b5b, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: -10px 0 13px -7px #5b5b5b, 10px 0 13px -7px #5b5b5b, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 .header_content_wrap {
@@ -110,11 +117,20 @@ a{
 .header_content__btn_first {
     background: #F9C600;
     border: 1px solid #F9C600;
+    cursor: pointer;
 }
-
+.header_content__btn_first:hover{
+    -webkit-box-shadow: 0 10px 13px -7px #5b5b5b, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0 10px 13px -7px #5b5b5b, 5px 5px 15px 5px rgba(0,0,0,0)
+}
 .header_content__btn_second {
     background: none;
     border: 1px solid #0B2330;
+    cursor: pointer;
+}
+.header_content__btn_second:hover{
+    -webkit-box-shadow: 0 10px 13px -7px #5b5b5b, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0 10px 13px -7px #5b5b5b, 5px 5px 15px 5px rgba(0,0,0,0)
 }
 
 .header_content_image {
@@ -219,6 +235,11 @@ a{
     margin: 113px 0;
     padding-left: 29px;
     padding-right: 29px;
+    cursor: pointer;
+}
+.content_4__btn:hover{
+    -webkit-box-shadow: 0 10px 13px -7px #5b5b5b, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0 10px 13px -7px #5b5b5b, 5px 5px 15px 5px rgba(0,0,0,0)
 }
 .content_5{
     height: 537px;
@@ -311,6 +332,9 @@ a{
     color: #375361;
     width: 484px;
 }
+.padd_32{
+    padding-top: 32px;
+}
 .content_6__btn{
     padding-left: 29px;
     padding-right: 29px;
@@ -324,6 +348,11 @@ a{
     border-radius: 4px;
     background: none;
     margin-top: 36px;
+    cursor: pointer;
+}
+.content_6__btn:hover{
+    -webkit-box-shadow: 0 10px 13px -7px #5b5b5b, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0 10px 13px -7px #5b5b5b, 5px 5px 15px 5px rgba(0,0,0,0)
 }
 .content_6__block_2{
     height: 348px;
@@ -357,9 +386,11 @@ a{
     padding-left: 8px;
 }
 .content_6__btn_bottom_1,
-.content_6__btn_bottom_2{
+.content_6__btn_bottom_2,
+.content_6__btn_bottom_3{
     color: #61757E;
     background: #E7EAEB;
+    cursor: pointer;
 }
 .content_6__btn_bottom_1{
     width: 228px;
@@ -368,9 +399,13 @@ a{
     width: 147px;
 }
 .content_6__btn_bottom_3{
+    width: 152px;
+}
+.content_6__btn_bottom_1:hover,
+.content_6__btn_bottom_2:hover,
+.content_6__btn_bottom_3:hover{
     background: #FE9F28;
     color: #0B2330;
-    width: 152px;
 }
 .content_7{
     height: 960px;
@@ -423,6 +458,14 @@ a{
     line-height: 32px;
     color: #0B2330;
     margin-bottom: 25px;
+    cursor: pointer;
+}
+.content_7__content_txt h5:hover,
+.content_7__content_txt h3:hover{
+    color: #FE9F28;
+}
+.content_7__content_txt_vector > img:hover{
+    cursor: pointer;
 }
 .content_7__content_txt p{
     font-weight: normal;
@@ -505,6 +548,11 @@ a{
     width: 208px;
     padding-left: 29px;
     padding-right: 29px;
+    cursor: pointer;
+}
+.content_8_txt > button:hover{
+    -webkit-box-shadow: 0 10px 13px -7px #5b5b5b, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0 10px 13px -7px #5b5b5b, 5px 5px 15px 5px rgba(0,0,0,0)
 }
 .content_9{
     height: 584px;
@@ -565,6 +613,11 @@ a{
     padding-left: 29px;
     padding-right: 29px;
     background: none;
+    cursor: pointer;
+}
+.content_9__box_1 > button:hover{
+    -webkit-box-shadow: 0 10px 13px -7px #5b5b5b, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0 10px 13px -7px #5b5b5b, 5px 5px 15px 5px rgba(0,0,0,0)
 }
 .content_9__box_2_img{
     position: absolute;
@@ -645,6 +698,11 @@ a{
     border-radius: 4px;
     padding-left: 29px;
     padding-right: 29px;
+    cursor: pointer;
+}
+.content_10 > button:hover{
+    -webkit-box-shadow: -10px 0 13px -7px #989898, 10px 0 13px -7px #989898, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: -10px 0 13px -7px #989898, 10px 0 13px -7px #989898, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 .content_10 > hr{
     background: #375361;
@@ -676,6 +734,9 @@ a{
 }
 .footer__block_blks_items a{
     color: #94A0A4;
+}
+.footer__block_blks_items a:hover{
+    color: #FE9F28;
 }
 .txt_yellow_special_style{
     color: #F9C600;
